@@ -17,9 +17,9 @@
 - Leverage Advanced AI: Utilize cutting-edge natural language processing from OpenAI to deliver context-aware and human-like responses.
 
 ## Tech Stack
-- Frontend: Next.js, Tailwind CSS
-- Backend: Node.js, OpenAI
-- Cloud: AWS (Amazon Web Services)
+- UI: Next.js, Tailwind CSS
+- API: OpenAI
+- Database: Firebase
 
 ## How to run locally
 1. navigate to respective front/back end folders
