@@ -19,7 +19,7 @@ export async function GET(req) {
     if (userChat.exists()) {
         return NextResponse.json({ success: true, messages: userChat.data().messages }, { status: 200 });
     } else {
-        return NextResponse.json({ ssuccess: false, error: 'Chat history not found' }, { status: 404 });
+        return NextResponse.json({ success: false, error: 'Chat history not found' }, { status: 404 });
     }
   } catch (error) {
     console.error('Error retrieving chat history:', error);
